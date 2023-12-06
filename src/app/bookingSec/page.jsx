@@ -20,12 +20,12 @@ export default function BookingSection() {
         <div className="flex flex-col">
           <label htmlFor="carType" className="font-medium text-orange">Car Type</label>
           <select name="carType" id="carType" className="w-full h-[50px] p-2 text-orange border border-orange focus:outline-none">
-            <option defaultValue disabled>Select your car type</option>
+            <option defaultValue>Select your car type</option>
             <option value="bmw5series">BMW 5 Series</option>
             <option value="bmw320i">BMW 320i</option>
+            <option value="bmwx3">BMW X3</option>
             <option value="SUV">Lexus RX 300</option>
             <option value="VOXY">TOYOTA VOXY</option>
-            <option value="bmwx3">BMW X3</option>
             <option value="daihatsuayla">Daihatsu Ayla</option>
           </select>
         </div>
