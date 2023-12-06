@@ -73,8 +73,8 @@ export default function Navbar() {
 
       {/* NAVBAR MOBILE START */}
       <section className={showNavbarMobile ?
-        'transition-all duration-300 fixed top-0 left-0 z-50 p-4 w-[60%] h-[100vh] shadow-md border-r border-orange' :
-        'transition-all duration-300 fixed top-0 left-[-200%] z-50 p-4 w-[60%] h-[100vh] shadow-md border-r border-orange'}
+        'transition-all duration-300 fixed top-0 left-0 z-50 p-4 w-[60%] h-[100vh] bg-white shadow-md border-r border-orange' :
+        'transition-all duration-300 fixed top-0 left-[-200%] z-50 p-4 w-[60%] h-[100vh] bg-white shadow-md border-r border-orange'}
         ref={sectionRef}>
         <LogoCarRental />
         <div className='w-full absolute top-[40%] p-4 translate-y-[-40%]'>
