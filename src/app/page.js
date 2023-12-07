@@ -1,6 +1,7 @@
 import About from "./about/page";
 import BookingSection from "./bookingSec/page";
 import CarModel from "./carModel/page";
+import ChooseUs from "./chooseUs/page";
 import Header from "./header/page";
 import Navbar from "./navbar/page";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <BookingSection />
       <About />
       <CarModel />
+      <ChooseUs />
     </>
   )
 }
