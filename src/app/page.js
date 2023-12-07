@@ -4,6 +4,7 @@ import CarModel from "./carModel/page";
 import ChooseUs from "./chooseUs/page";
 import Header from "./header/page";
 import Navbar from "./navbar/page";
+import Testimonial from "./tertimonial/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <CarModel />
       <ChooseUs />
+      <Testimonial />
     </>
   )
 }

@@ -7,13 +7,13 @@ import Image from "next/image";
 
 export default function ChooseUs() {
   return (
-    <div className="w-full md:py-24 my-16">
+    <div className="w-full my-16">
       <div className="p-5 py-10 text-center bg-black text-white">
         <h1 className="text-4xl md:text-6xl font-bold">Save big with our cheap car rental!</h1>
         <p className="text-orange font-medium text-sm md:text-base mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, repellendus!</p>
       </div>
 
-      <div className="mt-16 grid md:grid-cols-2 gap-10 p-4 md:px-14">
+      <div className="my-28 grid md:grid-cols-2 gap-10 p-4 md:px-14">
         <div>
           <p className="text-black font-semibold text-xl">Why choose us</p>
           <p className="text-black font-bold text-5xl my-2">Best valued deals you will ever find</p>
