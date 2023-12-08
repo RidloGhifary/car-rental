@@ -25,7 +25,7 @@ export default function BookingSection() {
         <p className="leading-5 font-medium text-base text-neutral-400 mt-2">Simplify your travel plans with our easy booking schedule. Secure your ride hassle-free, ensuring a smooth journey ahead.</p>
       </article>
 
-      <form className="my-6 grid grid-cols-2 md:grid-cols-3 justify-end items-end gap-2">
+      <form className="my-6 grid grid-cols-2 md:grid-cols-3 justify-end items-end gap-2" >
         <div className="flex flex-col">
           <label htmlFor="carType" className="font-medium text-orange">Car Type</label>
           <select name="carType" id="carType" className="w-full h-[50px] p-2 text-orange border border-orange focus:outline-none">

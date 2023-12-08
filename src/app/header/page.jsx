@@ -2,6 +2,7 @@ import Image from 'next/image'
 import cityHeaderImg from '/public/assets/header-bg.png'
 import carHeaderImg from '/public/assets/header-bg.webp'
 import { CheckCircle, CaretRight } from '@phosphor-icons/react/dist/ssr'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -11,9 +12,9 @@ export default function Header() {
         <h1 className='font-bold my-3 text-5xl text-center md:text-left text-black'>Save big with our <b className='text-orange'>car rental</b></h1>
         <p className='font-medium text-neutral-500 text-base text-center md:text-left'>Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
         <div className='flex gap-2 mt-5'>
-          <button className='font-bold flex items-center gap-3 bg-orange py-4 px-6 text-white border border-orange transition hover:shadow-lg hover:shadow-orange'>Book
+          <Link href="#booking-schedule" className='font-bold flex items-center gap-3 bg-orange py-4 px-6 text-white border border-orange transition hover:shadow-lg hover:shadow-orange'>Book
             <CheckCircle size={25} color="#ffffff" weight="bold" />
-          </button>
+          </Link>
           <button className='font-bold flex items-center gap-3 bg-black py-4 px-6 text-white border border-black transition hover:shadow-lg hover:shadow-black'>Learn more
             <CaretRight size={25} color="#ffffff" weight="bold" />
           </button>

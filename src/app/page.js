@@ -2,6 +2,7 @@ import About from "./about/page";
 import BookingSection from "./bookingSec/page";
 import CarModel from "./carModel/page";
 import ChooseUs from "./chooseUs/page";
+import ScrollToTop from "./component/scrollToTop";
 import Download from "./download/page";
 import Faq from "./faq/page";
 import Header from "./header/page";
@@ -18,6 +19,8 @@ export default function Home() {
       <Testimonial />
       <Faq />
       <Download />
+
+      <ScrollToTop />
     </>
   )
 }
