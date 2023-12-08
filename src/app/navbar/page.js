@@ -34,7 +34,7 @@ export default function Navbar() {
     <nav className="bg-white relative flex justify-between items-center p-4">
       <LogoCarRental />
 
-      <div className='hidden md:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+      <div className='hidden md:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] scroll-smooth'>
         <ul className=' flex items-center gap-4'>
           <li className='font-semibold text-orange transition hover:underline'>
             <Link href="/">Home</Link>

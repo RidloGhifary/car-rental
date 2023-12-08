@@ -6,6 +6,29 @@
   scroll-behavior: smooth;
 }
 
+/* CSS */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #ff7e2b #ffffff;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff7e2b;
+  /* Color of the thumb */
+  border-radius: 5px;
+  /* Radius of the thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #efefef;
+  /* Color of the track */
+}
+
 td,
 th {
   padding: 6px;

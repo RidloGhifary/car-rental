@@ -18,7 +18,7 @@ export default function CarModel() {
   }
 
   return (
-    <section className="w-full max-w-[1240px] p-6 py-16 md:px-24">
+    <section className="w-full max-w-[1240px] p-6 py-16 md:px-24" id="carModel">
       <div className="text-center md:max-w-[50%] mx-auto">
         <h1 className="text-orange/75 font-semibold text-xl">Vehicle model</h1>
         <h2 className="text-4xl text-orange font-bold">Our rental fleet</h2>
