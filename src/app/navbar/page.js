@@ -37,19 +37,19 @@ export default function Navbar() {
       <div className='hidden md:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <ul className=' flex items-center gap-4'>
           <li className='font-semibold text-orange transition hover:underline'>
-            <Link href="#">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className='font-semibold text-orange transition hover:underline'>
-            <Link href="#">About</Link>
+            <Link href="#about">About</Link>
           </li>
           <li className='font-semibold text-orange transition hover:underline'>
-            <Link href="#">Car</Link>
+            <Link href="#carModel">Car</Link>
           </li>
           <li className='font-semibold text-orange transition hover:underline'>
-            <Link href="#">Tertimonial</Link>
+            <Link href="#testimonial">Tertimonial</Link>
           </li>
           <li className='font-semibold text-orange transition hover:underline'>
-            <Link href="#">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -80,19 +80,19 @@ export default function Navbar() {
         <div className='w-full absolute top-[40%] p-4 translate-y-[-40%]'>
           <ul className='flex flex-col gap-5'>
             <li className='rounded-md font-semibold text-orange transition-all duration-300 hover:bg-neutral-100 hover:p-2'>
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className='rounded-md font-semibold text-orange transition-all duration-300 hover:bg-neutral-100 hover:p-2'>
-              <Link href="#">About</Link>
+              <Link href="#about">About</Link>
             </li>
             <li className='rounded-md font-semibold text-orange transition-all duration-300 hover:bg-neutral-100 hover:p-2'>
-              <Link href="#">Car</Link>
+              <Link href="#carModel">Car</Link>
             </li>
             <li className='rounded-md font-semibold text-orange transition-all duration-300 hover:bg-neutral-100 hover:p-2'>
-              <Link href="#">Tertimonial</Link>
+              <Link href="#testimonial">Tertimonial</Link>
             </li>
             <li className='rounded-md font-semibold text-orange transition-all duration-300 hover:bg-neutral-100 hover:p-2'>
-              <Link href="#">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </div>

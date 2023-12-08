@@ -5,7 +5,7 @@ import { Quotes } from '@phosphor-icons/react/dist/ssr'
 
 export default function Testimonial() {
   return (
-    <section className="bg-neutral-100 w-full max-x-[1240px] py-16 px-10 md:px-24">
+    <section className="bg-neutral-100 w-full max-x-[1240px] py-16 px-10 md:px-24" id="testimonial">
       <div className="text-center md:w-[60%] mx-auto">
         <p className="text-xl font-semibold">Reviewed by People</p>
         <p className="text-black font-bold text-4xl my-2">Client's Testimonials</p>

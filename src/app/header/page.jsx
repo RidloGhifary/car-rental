@@ -1,17 +1,22 @@
 import Image from 'next/image'
 import cityHeaderImg from '/public/assets/header-bg.png'
 import carHeaderImg from '/public/assets/header-bg.webp'
-import Button from '../component/button'
+import { CheckCircle, CaretRight } from '@phosphor-icons/react/dist/ssr'
 
 export default function Header() {
   return (
     <header className='w-full h-[80vh] relative grid md:grid-cols-2 p-5 md:px-16 py-12 md:py-14'>
       <div className='w-full h-full flex flex-col justify-center items-center md:items-start'>
-        <h1 className='font-bold text-5xl text-orange'>Car Rental Here</h1>
-        <p className='font-medium text-neutral-500 text-base text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet nesciunt voluptas veritatis incidunt, id eos iure. Nemo odit, ratione explicabo cupiditate ea repellat, aperiam rerum magni atque provident excepturi.</p>
-        <div className='flex gap-2 mt-3'>
-          <button className='font-semibold bg-white py-2 px-5 text-black border border-orange transition hover:bg-orange hover:text-white'>Log in</button>
-          <Button name="Register" />
+        <span className='font-bold text-black text-lg'>Plan your trip now</span>
+        <h1 className='font-bold my-3 text-5xl text-center md:text-left text-black'>Save big with our <b className='text-orange'>car rental</b></h1>
+        <p className='font-medium text-neutral-500 text-base text-center md:text-left'>Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
+        <div className='flex gap-2 mt-5'>
+          <button className='font-bold flex items-center gap-3 bg-orange py-4 px-6 text-white border border-orange transition hover:shadow-lg hover:shadow-orange'>Book
+            <CheckCircle size={25} color="#ffffff" weight="bold" />
+          </button>
+          <button className='font-bold flex items-center gap-3 bg-black py-4 px-6 text-white border border-black transition hover:shadow-lg hover:shadow-black'>Learn more
+            <CaretRight size={25} color="#ffffff" weight="bold" />
+          </button>
         </div>
       </div>
       <div className='w-full h-full hidden md:flex justify-center items-center'>

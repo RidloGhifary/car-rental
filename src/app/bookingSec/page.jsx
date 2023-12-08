@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from "react"
+import BookingBg from '/public/assets/booking-sec-bg.png'
+import Image from "next/image"
 
 export default function BookingSection() {
   const [checkboxDropLocation, setCheckboxDropLocation] = useState(false)
@@ -10,10 +12,17 @@ export default function BookingSection() {
   }
 
   return (
-    <section className="w-full flex flex-col justify-center p-6 md:px-16">
+    <section className="w-full relative max-w-[1200px] mx-auto rounded-md shadow-lg flex flex-col justify-center p-6 md:px-16" id="booking-schedule">
+
+      <div className="absolute top-0 left-0 bottom-0 right-0 w-full">
+        <Image src={BookingBg} alt="booking bg" width={200} height={200}
+          className="w-full object-cover object-center"
+        />
+      </div>
+
       <article className="md:max-w-[50%] grid grid-cols-1">
         <h1 className="text-orange text-4xl font-bold">Booking schedule</h1>
-        <p className="leading-5 font-medium text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum sunt deserunt error repellat perspiciatis aspernatur odio! Aut, enim cupiditate!</p>
+        <p className="leading-5 font-medium text-base text-neutral-400 mt-2">Simplify your travel plans with our easy booking schedule. Secure your ride hassle-free, ensuring a smooth journey ahead.</p>
       </article>
 
       <form className="my-6 grid grid-cols-2 md:grid-cols-3 justify-end items-end gap-2">
@@ -38,12 +47,12 @@ export default function BookingSection() {
           <input type="text" name="location" id="location" placeholder="Pick Location" className="w-full h-[50px] p-2 text-orange border border-orange   focus:outline-none placeholder-orange" />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="dropdate" className="font-medium text-orange">Drop up date</label>
+          <label htmlFor="dropdate" className="font-medium text-orange">Drop of date</label>
           <input type="date" name="date" id="date" className="w-full h-[50px] p-2 text-orange border focus:outline-none border-orange" />
         </div>
         <div className={checkboxDropLocation ? "flex flex-col" : "hidden"}>
-          <label htmlFor="location" className="font-medium text-orange">Drop up location</label>
-          <input type="text" name="location" id="location" placeholder="Drop Location" className="w-full h-[50px] p-2 text-orange border border-orange   focus:outline-none placeholder-orange" />
+          <label htmlFor="location" className="font-medium text-orange">Drop of location</label>
+          <input type="text" name="location" id="location" placeholder="Drop of Location" className="w-full h-[50px] p-2 text-orange border border-orange   focus:outline-none placeholder-orange" />
         </div>
 
         <input type="submit" value="Submit" className={checkboxDropLocation ? "w-full col-span-1 h-[50px] p-2 font-medium text-orange border focus:outline-none border-orange hover:bg-orange hover:text-white cursor-pointer" : "w-full col-span-2 h-[50px] p-2 font-medium text-orange border focus:outline-none border-orange hover:bg-orange hover:text-white cursor-pointer"} />

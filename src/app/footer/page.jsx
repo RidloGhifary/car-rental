@@ -2,7 +2,7 @@ import { PhoneCall, EnvelopeSimple } from '@phosphor-icons/react/dist/ssr'
 
 export default function Footer() {
   return (
-    <footer className="w-full p-6 py-16 md:px-16">
+    <footer className="w-full p-6 py-16 md:px-16" id="contact">
       <div className="max-w-[1240px] mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-16">
         <article className='md:col-span-2'>
           <h1 className='text-4xl font-semibold text-black'><b>Car</b> Rental</h1>
