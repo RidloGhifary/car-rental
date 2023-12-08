@@ -31,7 +31,7 @@ export default function Faq() {
           </div>
 
           <div
-            className={showFaq === 'q1' ? 'p-6 h-[145px] max-h-[200px] transition-all duration-300' : 'h-0 transition-all duration-300'}
+            className={showFaq === 'q1' ? 'p-6 h-auto md:h-[145px] transition-all duration-300' : 'h-0 transition-all duration-300'}
             style={{ transition: 'all .4s ease-in-out' }}>
             <p className={showFaq === 'q1' ? "font-medium text-neutral-400" :
               "font-medium hidden text-neutral-400"}>
@@ -49,7 +49,7 @@ export default function Faq() {
           </div>
 
           <div
-            className={showFaq === 'q2' ? 'p-6 h-[145px] max-h-[200px] transition-all duration-300' : 'h-0 transition-all duration-300'}
+            className={showFaq === 'q2' ? 'p-6 h-auto md:h-[145px] transition-all duration-300' : 'h-0 transition-all duration-300'}
             style={{ transition: 'all .4s ease-in-out' }}>
             <p className={showFaq === 'q2' ? "font-medium text-neutral-400" :
               "font-medium hidden text-neutral-400"}>
@@ -67,7 +67,7 @@ export default function Faq() {
           </div>
 
           <div
-            className={showFaq === 'q3' ? 'p-6 h-[175px] max-h-[200px] transition-all duration-300' : 'h-0 transition-all duration-300'}
+            className={showFaq === 'q3' ? 'p-6 h-auto md:h-[145px] transition-all duration-300' : 'h-0 transition-all duration-300'}
             style={{ transition: 'all .4s ease-in-out' }}>
             <p className={showFaq === 'q3' ? "font-medium text-neutral-400" :
               "font-medium hidden text-neutral-400"}>
