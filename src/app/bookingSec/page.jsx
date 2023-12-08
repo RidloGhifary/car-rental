@@ -14,7 +14,7 @@ export default function BookingSection() {
   return (
     <section className="w-full relative max-w-[1200px] mx-auto rounded-md shadow-lg flex flex-col justify-center p-6 md:px-16" id="booking-schedule">
 
-      <div className="absolute top-0 left-0 bottom-0 right-0 w-full">
+      <div className="-z-10 absolute top-0 left-0 bottom-0 right-0 w-full">
         <Image src={BookingBg} alt="booking bg" width={200} height={200}
           className="w-full object-cover object-center"
         />
